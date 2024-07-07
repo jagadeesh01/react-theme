@@ -5,6 +5,8 @@ import Header from './components/Header';
 import FutureOfCourse from './components/FutureOfCourse';
 import AboutCourse from './components/AboutCourse';
 import CourseHighlights from './components/CourseHighlights';
+import JavaCourseCurriculum from './components/CourseCurriculum'
+import TalkToExpert from './components/TalkToExpert';
 import './App.css'
 // Import other components as needed
 
@@ -16,6 +18,8 @@ const App = () => {
       <CourseHighlights />
       <FutureOfCourse />
       <AboutCourse />
+      <JavaCourseCurriculum />
+      <TalkToExpert />
       {/* Add other components here */}
     </ThemeProvider>
   );

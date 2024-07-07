@@ -8,7 +8,7 @@ const Navbar = () => {
   const { isDark, toggleTheme } = useTheme();
 
   return (
-    <BootstrapNavbar bg={isDark ? 'dark' : 'light'} variant={isDark ? 'dark' : 'light'} expand="lg" className='py-2' fixed='top'>
+    <BootstrapNavbar bg={isDark ? 'dark' : 'light'} variant={isDark ? 'dark' : 'light'} expand="lg" className='py-2 navbar-shadow' fixed='top'>
       <Container>
         <BootstrapNavbar.Brand to="/" className="d-flex align-items-center">
           <span
